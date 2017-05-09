@@ -14,6 +14,7 @@ class LeagueViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.view.backgroundColor = UIColor.white
         self.refreshControl?.addTarget(self, action: #selector(LeagueViewController.handleRefresh), for: UIControlEvents.valueChanged)
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 140
