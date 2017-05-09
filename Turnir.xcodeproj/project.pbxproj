@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2303C87A1DEB615B0049187D /* LeagueTableHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2303C8791DEB615B0049187D /* LeagueTableHeaderViewCell.swift */; };
+		230AD7D11EC228CB00AEF91B /* LeagueViewController+UIViewControllerPreviewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230AD7D01EC228CB00AEF91B /* LeagueViewController+UIViewControllerPreviewing.swift */; };
+		230BE7D41EBF7F2500F45447 /* TeamPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230BE7D31EBF7F2500F45447 /* TeamPageViewController.swift */; };
+		230BE7D61EBF988100F45447 /* TeamPlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230BE7D51EBF988100F45447 /* TeamPlayersTableViewController.swift */; };
+		237692B41DE0326800E07DDF /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237692B31DE0326800E07DDF /* MessageModel.swift */; };
+		237692B71DE03C6900E07DDF /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237692B61DE03C6900E07DDF /* MessagesTableViewCell.swift */; };
+		2391C9E61DD64B5400987625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391C9E51DD64B5400987625 /* AppDelegate.swift */; };
+		2391C9E81DD64B5400987625 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391C9E71DD64B5400987625 /* MessagesViewController.swift */; };
+		2391C9EA1DD64B5400987625 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391C9E91DD64B5400987625 /* MessageViewController.swift */; };
+		2391C9ED1DD64B5400987625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2391C9EB1DD64B5400987625 /* Main.storyboard */; };
+		2391C9EF1DD64B5400987625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2391C9EE1DD64B5400987625 /* Assets.xcassets */; };
+		2391C9F21DD64B5400987625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2391C9F01DD64B5400987625 /* LaunchScreen.storyboard */; };
+		2391C9FD1DD64B5400987625 /* TurnirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391C9FC1DD64B5400987625 /* TurnirTests.swift */; };
+		2391CA081DD64B5400987625 /* TurnirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391CA071DD64B5400987625 /* TurnirUITests.swift */; };
+		23F8DE1C1DE86B9200873B5B /* LeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8DE1B1DE86B9200873B5B /* LeagueViewController.swift */; };
+		23F8DE1E1DE872C000873B5B /* LeagueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8DE1D1DE872C000873B5B /* LeagueTableViewCell.swift */; };
+		23F8DE201DE877A600873B5B /* LeagueTeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8DE1F1DE877A600873B5B /* LeagueTeamModel.swift */; };
+		23FB85F01EBE5A0B0049A136 /* TeamStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FB85EF1EBE5A0B0049A136 /* TeamStatsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2391C9F91DD64B5400987625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2391C9DA1DD64B5300987625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2391C9E11DD64B5300987625;
+			remoteInfo = Turnir;
+		};
+		2391CA041DD64B5400987625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2391C9DA1DD64B5300987625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2391C9E11DD64B5300987625;
+			remoteInfo = Turnir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2303C8791DEB615B0049187D /* LeagueTableHeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueTableHeaderViewCell.swift; sourceTree = "<group>"; };
+		230AD7D01EC228CB00AEF91B /* LeagueViewController+UIViewControllerPreviewing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LeagueViewController+UIViewControllerPreviewing.swift"; sourceTree = "<group>"; };
+		230BE7D31EBF7F2500F45447 /* TeamPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamPageViewController.swift; sourceTree = "<group>"; };
+		230BE7D51EBF988100F45447 /* TeamPlayersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamPlayersTableViewController.swift; sourceTree = "<group>"; };
+		237692B31DE0326800E07DDF /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		237692B61DE03C6900E07DDF /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
+		2391C9E21DD64B5400987625 /* Turnir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Turnir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2391C9E51DD64B5400987625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2391C9E71DD64B5400987625 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		2391C9E91DD64B5400987625 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		2391C9EC1DD64B5400987625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2391C9EE1DD64B5400987625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Turnir/Assets.xcassets; sourceTree = "<group>"; };
+		2391C9F11DD64B5400987625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2391C9F31DD64B5400987625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2391C9F81DD64B5400987625 /* TurnirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2391C9FC1DD64B5400987625 /* TurnirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnirTests.swift; sourceTree = "<group>"; };
+		2391C9FE1DD64B5400987625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2391CA031DD64B5400987625 /* TurnirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2391CA071DD64B5400987625 /* TurnirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnirUITests.swift; sourceTree = "<group>"; };
+		2391CA091DD64B5400987625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F8DE1B1DE86B9200873B5B /* LeagueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueViewController.swift; sourceTree = "<group>"; };
+		23F8DE1D1DE872C000873B5B /* LeagueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueTableViewCell.swift; sourceTree = "<group>"; };
+		23F8DE1F1DE877A600873B5B /* LeagueTeamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueTeamModel.swift; sourceTree = "<group>"; };
+		23FB85EF1EBE5A0B0049A136 /* TeamStatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamStatsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2391C9DF1DD64B5300987625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2391C9F51DD64B5400987625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2391CA001DD64B5400987625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		237692B21DE031ED00E07DDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				237692B31DE0326800E07DDF /* MessageModel.swift */,
+				23F8DE1F1DE877A600873B5B /* LeagueTeamModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		237692B51DE03C4800E07DDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				237692B61DE03C6900E07DDF /* MessagesTableViewCell.swift */,
+				23F8DE1D1DE872C000873B5B /* LeagueTableViewCell.swift */,
+				2303C8791DEB615B0049187D /* LeagueTableHeaderViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2391C9D91DD64B5300987625 = {
+			isa = PBXGroup;
+			children = (
+				2391C9E41DD64B5400987625 /* Turnir */,
+				2391C9FB1DD64B5400987625 /* TurnirTests */,
+				2391CA061DD64B5400987625 /* TurnirUITests */,
+				2391C9E31DD64B5400987625 /* Products */,
+				2391C9EE1DD64B5400987625 /* Assets.xcassets */,
+			);
+			sourceTree = "<group>";
+		};
+		2391C9E31DD64B5400987625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2391C9E21DD64B5400987625 /* Turnir.app */,
+				2391C9F81DD64B5400987625 /* TurnirTests.xctest */,
+				2391CA031DD64B5400987625 /* TurnirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2391C9E41DD64B5400987625 /* Turnir */ = {
+			isa = PBXGroup;
+			children = (
+				23D6C1281DE0D2010064E1D2 /* ViewControllers */,
+				237692B51DE03C4800E07DDF /* Views */,
+				237692B21DE031ED00E07DDF /* Models */,
+				2391C9E51DD64B5400987625 /* AppDelegate.swift */,
+				2391C9EB1DD64B5400987625 /* Main.storyboard */,
+				2391C9F01DD64B5400987625 /* LaunchScreen.storyboard */,
+				2391C9F31DD64B5400987625 /* Info.plist */,
+			);
+			path = Turnir;
+			sourceTree = "<group>";
+		};
+		2391C9FB1DD64B5400987625 /* TurnirTests */ = {
+			isa = PBXGroup;
+			children = (
+				2391C9FC1DD64B5400987625 /* TurnirTests.swift */,
+				2391C9FE1DD64B5400987625 /* Info.plist */,
+			);
+			path = TurnirTests;
+			sourceTree = "<group>";
+		};
+		2391CA061DD64B5400987625 /* TurnirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2391CA071DD64B5400987625 /* TurnirUITests.swift */,
+				2391CA091DD64B5400987625 /* Info.plist */,
+			);
+			path = TurnirUITests;
+			sourceTree = "<group>";
+		};
+		23D6C1281DE0D2010064E1D2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				23FB85EC1EBE59870049A136 /* Team */,
+				23F8DE1A1DE86B5800873B5B /* League */,
+				23F8DE191DE86B3B00873B5B /* Messages */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		23F8DE191DE86B3B00873B5B /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				2391C9E71DD64B5400987625 /* MessagesViewController.swift */,
+				2391C9E91DD64B5400987625 /* MessageViewController.swift */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		23F8DE1A1DE86B5800873B5B /* League */ = {
+			isa = PBXGroup;
+			children = (
+				230AD7D01EC228CB00AEF91B /* LeagueViewController+UIViewControllerPreviewing.swift */,
+				23F8DE1B1DE86B9200873B5B /* LeagueViewController.swift */,
+			);
+			name = League;
+			sourceTree = "<group>";
+		};
+		23FB85EC1EBE59870049A136 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				23FB85EF1EBE5A0B0049A136 /* TeamStatsViewController.swift */,
+				230BE7D31EBF7F2500F45447 /* TeamPageViewController.swift */,
+				230BE7D51EBF988100F45447 /* TeamPlayersTableViewController.swift */,
+			);
+			name = Team;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2391C9E11DD64B5300987625 /* Turnir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2391CA0C1DD64B5400987625 /* Build configuration list for PBXNativeTarget "Turnir" */;
+			buildPhases = (
+				2391C9DE1DD64B5300987625 /* Sources */,
+				2391C9DF1DD64B5300987625 /* Frameworks */,
+				2391C9E01DD64B5300987625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Turnir;
+			productName = Turnir;
+			productReference = 2391C9E21DD64B5400987625 /* Turnir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2391C9F71DD64B5400987625 /* TurnirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2391CA0F1DD64B5400987625 /* Build configuration list for PBXNativeTarget "TurnirTests" */;
+			buildPhases = (
+				2391C9F41DD64B5400987625 /* Sources */,
+				2391C9F51DD64B5400987625 /* Frameworks */,
+				2391C9F61DD64B5400987625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2391C9FA1DD64B5400987625 /* PBXTargetDependency */,
+			);
+			name = TurnirTests;
+			productName = TurnirTests;
+			productReference = 2391C9F81DD64B5400987625 /* TurnirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2391CA021DD64B5400987625 /* TurnirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2391CA121DD64B5400987625 /* Build configuration list for PBXNativeTarget "TurnirUITests" */;
+			buildPhases = (
+				2391C9FF1DD64B5400987625 /* Sources */,
+				2391CA001DD64B5400987625 /* Frameworks */,
+				2391CA011DD64B5400987625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2391CA051DD64B5400987625 /* PBXTargetDependency */,
+			);
+			name = TurnirUITests;
+			productName = TurnirUITests;
+			productReference = 2391CA031DD64B5400987625 /* TurnirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2391C9DA1DD64B5300987625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Adam Gorkoz";
+				TargetAttributes = {
+					2391C9E11DD64B5300987625 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3CZDYPF8HZ;
+						ProvisioningStyle = Automatic;
+					};
+					2391C9F71DD64B5400987625 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2391C9E11DD64B5300987625;
+					};
+					2391CA021DD64B5400987625 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2391C9E11DD64B5300987625;
+					};
+				};
+			};
+			buildConfigurationList = 2391C9DD1DD64B5300987625 /* Build configuration list for PBXProject "Turnir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2391C9D91DD64B5300987625;
+			productRefGroup = 2391C9E31DD64B5400987625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2391C9E11DD64B5300987625 /* Turnir */,
+				2391C9F71DD64B5400987625 /* TurnirTests */,
+				2391CA021DD64B5400987625 /* TurnirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2391C9E01DD64B5300987625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2391C9F21DD64B5400987625 /* LaunchScreen.storyboard in Resources */,
+				2391C9EF1DD64B5400987625 /* Assets.xcassets in Resources */,
+				2391C9ED1DD64B5400987625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2391C9F61DD64B5400987625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2391CA011DD64B5400987625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2391C9DE1DD64B5300987625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F8DE201DE877A600873B5B /* LeagueTeamModel.swift in Sources */,
+				2391C9EA1DD64B5400987625 /* MessageViewController.swift in Sources */,
+				2303C87A1DEB615B0049187D /* LeagueTableHeaderViewCell.swift in Sources */,
+				23F8DE1C1DE86B9200873B5B /* LeagueViewController.swift in Sources */,
+				2391C9E81DD64B5400987625 /* MessagesViewController.swift in Sources */,
+				237692B71DE03C6900E07DDF /* MessagesTableViewCell.swift in Sources */,
+				2391C9E61DD64B5400987625 /* AppDelegate.swift in Sources */,
+				23F8DE1E1DE872C000873B5B /* LeagueTableViewCell.swift in Sources */,
+				237692B41DE0326800E07DDF /* MessageModel.swift in Sources */,
+				230BE7D61EBF988100F45447 /* TeamPlayersTableViewController.swift in Sources */,
+				230AD7D11EC228CB00AEF91B /* LeagueViewController+UIViewControllerPreviewing.swift in Sources */,
+				230BE7D41EBF7F2500F45447 /* TeamPageViewController.swift in Sources */,
+				23FB85F01EBE5A0B0049A136 /* TeamStatsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2391C9F41DD64B5400987625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2391C9FD1DD64B5400987625 /* TurnirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2391C9FF1DD64B5400987625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2391CA081DD64B5400987625 /* TurnirUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2391C9FA1DD64B5400987625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2391C9E11DD64B5300987625 /* Turnir */;
+			targetProxy = 2391C9F91DD64B5400987625 /* PBXContainerItemProxy */;
+		};
+		2391CA051DD64B5400987625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2391C9E11DD64B5300987625 /* Turnir */;
+			targetProxy = 2391CA041DD64B5400987625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2391C9EB1DD64B5400987625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2391C9EC1DD64B5400987625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2391C9F01DD64B5400987625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2391C9F11DD64B5400987625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2391CA0A1DD64B5400987625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2391CA0B1DD64B5400987625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2391CA0D1DD64B5400987625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3CZDYPF8HZ;
+				INFOPLIST_FILE = Turnir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turka.Turnir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2391CA0E1DD64B5400987625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3CZDYPF8HZ;
+				INFOPLIST_FILE = Turnir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turka.Turnir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2391CA101DD64B5400987625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TurnirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turka.TurnirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turnir.app/Turnir";
+			};
+			name = Debug;
+		};
+		2391CA111DD64B5400987625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TurnirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turka.TurnirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turnir.app/Turnir";
+			};
+			name = Release;
+		};
+		2391CA131DD64B5400987625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TurnirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turka.TurnirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Turnir;
+			};
+			name = Debug;
+		};
+		2391CA141DD64B5400987625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TurnirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.turka.TurnirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Turnir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2391C9DD1DD64B5300987625 /* Build configuration list for PBXProject "Turnir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2391CA0A1DD64B5400987625 /* Debug */,
+				2391CA0B1DD64B5400987625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2391CA0C1DD64B5400987625 /* Build configuration list for PBXNativeTarget "Turnir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2391CA0D1DD64B5400987625 /* Debug */,
+				2391CA0E1DD64B5400987625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2391CA0F1DD64B5400987625 /* Build configuration list for PBXNativeTarget "TurnirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2391CA101DD64B5400987625 /* Debug */,
+				2391CA111DD64B5400987625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2391CA121DD64B5400987625 /* Build configuration list for PBXNativeTarget "TurnirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2391CA131DD64B5400987625 /* Debug */,
+				2391CA141DD64B5400987625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2391C9DA1DD64B5300987625 /* Project object */;
+}
