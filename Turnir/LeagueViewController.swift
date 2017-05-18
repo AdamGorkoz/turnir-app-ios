@@ -25,6 +25,8 @@ class LeagueViewController: UITableViewController {
         if traitCollection.forceTouchCapability == .available {
             registerForPreviewing(with: self, sourceView: view)
         }
+        self.hidesBottomBarWhenPushed = true
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,6 +40,7 @@ class LeagueViewController: UITableViewController {
             fetchLeagueTeams()
         }
     }
+
     
     func handleRefresh(){
         fetchLeagueTeams()

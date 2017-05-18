@@ -34,6 +34,19 @@ class TeamPageViewController: UIPageViewController {
             self.navigationItem.title = firstViewController.title
         }
     }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        for view in self.view.subviews {
+            if view is UIScrollView {
+                view.frame = UIScreen.main.bounds
+            } else if view is UIPageControl {
+                let pageControl = view as! UIPageControl
+                pageControl.currentPageIndicatorTintColor = UIColor(red: 0/250, green: 122.0/250, blue: 255.0/250, alpha: 1.0)
+                pageControl.pageIndicatorTintColor = UIColor(red: 209.0/250, green: 209.0/250, blue: 209.0/250, alpha: 1.0)
+            }
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -93,5 +106,13 @@ extension TeamPageViewController: UIPageViewControllerDataSource {
         }
         
         return orderedViewControllers[nextIndex]
+    }
+    
+    public func presentationCount(for pageViewController: UIPageViewController) -> Int {
+        return 2
+    }
+    
+    public func presentationIndex(for pageViewController: UIPageViewController) -> Int {
+        return 0
     }
 }
