@@ -20,7 +20,11 @@ class TeamPageViewController: UIPageViewController {
         let teamPlayersTableViewController = self.storyboard!.instantiateViewController(withIdentifier: "TeamPlayersViewController") as! TeamPlayersTableViewController
         teamPlayersTableViewController.currentTeamId = self.currentTeam.id
         
-        return [teamStatsViewController,teamPlayersTableViewController]
+        let teamMatchesViewController = self.storyboard!.instantiateViewController(withIdentifier:"TeamMatchesViewController")
+            as! TeamMatchesTableViewController
+        teamMatchesViewController.currentTeamId = self.currentTeam.id
+        
+        return [teamStatsViewController,teamPlayersTableViewController,teamMatchesViewController]
     }()
     
     override func viewDidLoad() {
@@ -109,7 +113,7 @@ extension TeamPageViewController: UIPageViewControllerDataSource {
     }
     
     public func presentationCount(for pageViewController: UIPageViewController) -> Int {
-        return 2
+        return 3
     }
     
     public func presentationIndex(for pageViewController: UIPageViewController) -> Int {

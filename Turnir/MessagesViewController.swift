@@ -15,7 +15,7 @@ class MessagesViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.view.backgroundColor = UIColor.white
         self.refreshControl?.addTarget(self, action: #selector(MessagesViewController.handleRefresh(_:)), for: UIControlEvents.valueChanged)
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 140
@@ -77,7 +77,6 @@ class MessagesViewController: UITableViewController {
                 let object = messages[indexPath.row]
                 let controller = segue.destination as! MessageViewController
                 controller.detailItem = object
-                controller.hidesBottomBarWhenPushed = true
             }
         }
     }

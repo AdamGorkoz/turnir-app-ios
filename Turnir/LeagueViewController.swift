@@ -25,7 +25,6 @@ class LeagueViewController: UITableViewController {
         if traitCollection.forceTouchCapability == .available {
             registerForPreviewing(with: self, sourceView: view)
         }
-        self.hidesBottomBarWhenPushed = true
         
     }
 
