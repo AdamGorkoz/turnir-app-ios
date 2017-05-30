@@ -24,6 +24,7 @@ class TeamPlayersTableViewController: UITableViewController {
         self.refreshControl?.addTarget(self, action: #selector(TeamPlayersTableViewController.handleRefresh), for: UIControlEvents.valueChanged)
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 140
+        tableView.contentInset = UIEdgeInsetsMake(0, 0, 70, 0);
         self.tableView.contentOffset = CGPoint(x: 0, y: -1 * (self.tableView.refreshControl?.frame.size.height)!)
         self.tableView.refreshControl?.layoutIfNeeded()
         self.tableView.refreshControl?.beginRefreshing()

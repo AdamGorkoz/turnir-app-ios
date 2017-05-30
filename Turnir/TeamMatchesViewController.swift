@@ -25,6 +25,7 @@ class TeamMatchesTableViewController: UITableViewController {
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 140
         self.tableView.contentOffset = CGPoint(x: 0, y: -1 * (self.tableView.refreshControl?.frame.size.height)!)
+        tableView.contentInset = UIEdgeInsetsMake(0, 0, 70, 0);
         self.tableView.refreshControl?.layoutIfNeeded()
         self.tableView.refreshControl?.beginRefreshing()
     }
